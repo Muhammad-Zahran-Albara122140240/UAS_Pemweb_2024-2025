@@ -8,9 +8,14 @@ Bagian 1: Client-side Programming (Bobot: 30%)
     Buat form input dengan minimal 4 elemen input (teks, checkbox, radio, dll.)
     ![image](https://github.com/user-attachments/assets/6f3d19a3-38dd-431b-8eca-3c332d041f01)
     Tampilkan data dari server ke dalam sebuah tabel HTML.
+    Form input telah dibuat dengan 5 elemen input, dan data dari server sudah bisa ditampilkan dalam tabel
+    ![image](https://github.com/user-attachments/assets/0c7874f5-67a9-4b0b-812a-df80a99cc7a7)
+
   1.2 Event Handling (15%)
     Tambahkan minimal 3 event yang berbeda untuk meng-handle form pada 1.1.
     Implementasikan JavaScript untuk validasi setiap input sebelum diproses oleh PHP.
+    ![image](https://github.com/user-attachments/assets/d6dffc35-a86f-4aaa-aedc-e99bbaed5feb)
+    4 event sudah ditambahkan untuk validasi setiap input menggunakan javascript.
 
 Bagian 2: Server-side Programming (Bobot: 30%)
   2.1 Pengelolaan Data dengan PHP (20%)
