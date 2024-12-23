@@ -1,9 +1,10 @@
 <?php
 class Koneksi {
-    private $host = '127.0.0.1';
+    private $host = 'junction.proxy.rlwy.net';
+    private $port = 39408;
     private $user = 'root';
-    private $password = '';
-    private $dbname = 'db_konser';
+    private $password = 'EAGbFNnFbuPwkOLsDPuLLaedtSaqxdFA';
+    private $dbname = 'railway';
     private $conn;
 
     public function __construct() {
@@ -11,7 +12,8 @@ class Koneksi {
             $this->host,
             $this->user,
             $this->password,
-            $this->dbname
+            $this->dbname,
+            $this->port
         );
 
         if ($this->conn->connect_error) {
