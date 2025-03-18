@@ -11,7 +11,7 @@ if (isset($_SESSION['user_id'])) {
 <style>
 body {
     font-family: Arial, sans-serif;
-    background: url('../assets/BG.jpg');
+    background-color: #f2f2f2;
     display: flex;
     justify-content: center;
     align-items: center;
